@@ -1,0 +1,13 @@
+h1 {
+    color: #bc1f1a;
+    text-align: center;
+    text-shadow: 3px 3px rgb(233, 157, 157);
+    font-family: cursive;
+}
+.rem {
+    margin-left: 5px;
+    background-color: white;
+    color: red;
+    border: none;
+    cursor: pointer;
+}
