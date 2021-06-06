@@ -11,8 +11,6 @@
         <h1>My ToDo List</h1>
         <img src="e.png" alt="" width="50px" class="rounded mx-auto d-block">
         <div>
-
-        
         <input class = "input" type="text" placeholder="New item" size="40rem"/>
         <button id="add" class="btn btn-info" >Add</button>
         <ol id="mylist" class="list-group"></ol>
@@ -24,9 +22,7 @@
                 console.log('Registered events at scope: ', registration.scope);
               });
             }
-        
             fetch('./data.json')
-        
             var statusEl = document.querySelector('#network-status')
             if (!navigator.onLine) {
               statusEl.classList = ['is-offline']
